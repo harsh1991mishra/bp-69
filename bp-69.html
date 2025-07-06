@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnePage Dating</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>OnePage Dating</h1>
+
+    <!-- Sign-Up Form -->
+    <div id="signup-box">
+      <h2>Sign Up</h2>
+      <form id="signup-form">
+        <input type="text" placeholder="Mobile Number" name="mobile" required>
+        <input type="text" placeholder="User ID" name="userid" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <!-- Login Form -->
+    <div id="login-box">
+      <h2>Login</h2>
+      <form id="login-form">
+        <input type="text" placeholder="User ID" name="userid" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <!-- Chatroom -->
+    <div id="chatroom">
+      <h2>Public Chatroom</h2>
+      <div id="chat-log"></div>
+      <input type="text" id="chat-input" placeholder="Type your message">
+      <button id="send-btn">Send</button>
+    </div>
+
+    <!-- Video Section -->
+    <div id="videos">
+      <h2>WWE Videos</h2>
+      <div id="video-list"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
